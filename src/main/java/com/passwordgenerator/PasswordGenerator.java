@@ -18,7 +18,7 @@ public class PasswordGenerator {
     }
     
     public static void main(String[] args) {
-        System.out.println("What is the desired characters lenght for the password?");
+        System.out.println("What is the desired lenght for the password?");
         int passwordLength = scan.nextInt();
         System.out.println(generatePassword(passwordLength));
     }
